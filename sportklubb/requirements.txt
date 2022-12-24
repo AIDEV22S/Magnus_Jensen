@@ -1,0 +1,3 @@
+¤ python 
+¤ PySimpleGUI version used: 4.60.4
+¤ SQLAlchemy version used:  1.4.44
