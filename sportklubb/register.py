@@ -221,10 +221,10 @@ class Club():
         """
         
         if due_fee == "Betald":
-            klubbavgift = True  # before False
+            klubbavgift = True
         
         elif due_fee == "Ej Betald":
-            klubbavgift = False # before True
+            klubbavgift = False
         
         
         update_stmt = update(Member).values(due_fee=klubbavgift).where(Member.memberID == member)

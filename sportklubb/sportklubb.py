@@ -1,8 +1,5 @@
 import PySimpleGUI as sg
-# from register import Member, Address, datetime, Club
-from register import datetime, Club # operator
-# import operator
-
+from register import datetime, Club
 
 
 Club.CreateDB()
